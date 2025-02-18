@@ -8,7 +8,6 @@ public class HelloWorldController {
 
 
 
-
     @GetMapping(path = "/whatsup")
     public String kyaHaalHai(){
         return "Kya Haal Hai Bhai K?";
